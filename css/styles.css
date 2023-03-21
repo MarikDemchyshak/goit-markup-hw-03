@@ -122,6 +122,8 @@ body {
 /* SECTION TITLE BUTTON STUDIO */
 .title-button {
   background-color: var(--logo-studio);
+  padding-top: 188px;
+  padding-bottom: 292px;
   margin-bottom: 120px;
 }
 
@@ -131,8 +133,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--brand-color-btn-1);
-  padding-top: 188px;
-  padding-bottom: 292px;
+  margin-bottom: 48px;
+  /* padding-top: 188px;
+  padding-bottom: 292px; */
 }
 
 .button-order-service {
