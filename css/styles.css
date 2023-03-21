@@ -61,6 +61,7 @@ body {
 
 .header {
   padding-top: 24px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -121,6 +122,8 @@ body {
 /* SECTION TITLE BUTTON STUDIO */
 .title-button {
   background-color: var(--logo-studio);
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 
 .main-title {
@@ -188,6 +191,8 @@ body {
 }
 
 .img-background {
+  padding-top: 232px;
+  padding-bottom: 120px;
   background-color: var(--brand-color-btn-1);
 }
 
@@ -239,6 +244,10 @@ body {
 }
 
 /* FOOTER */
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .footer-background {
   background-color: var(--logo-studio);
 }
