@@ -59,13 +59,13 @@ body {
   margin: 0 auto;
 }
 
-.header {
+/* HEADER */
+.header-padding {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
-/* HEADER */
 .header-logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -122,8 +122,7 @@ body {
 /* SECTION TITLE BUTTON STUDIO */
 .title-button {
   background-color: var(--logo-studio);
-  padding-top: 188px;
-  padding-bottom: 292px;
+  margin-bottom: 120px;
 }
 
 .main-title {
@@ -132,6 +131,8 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--brand-color-btn-1);
+  padding-top: 188px;
+  padding-bottom: 292px;
 }
 
 .button-order-service {
@@ -151,6 +152,9 @@ body {
 }
 
 /* SECTION TWO */
+.section-two-margin {
+  margin-bottom: 120px;
+}
 .section-two-title {
   font-weight: 500;
   font-size: 20px;
@@ -167,6 +171,9 @@ body {
 }
 
 /* SECTION THREE */
+.section-two-three {
+  margin-bottom: 120px;
+}
 .section-three-title {
   font-size: 36px;
   line-height: 1.11;
@@ -209,7 +216,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* SECTION BUTTON PORTFOLIO*/
+/* BUTTON PORTFOLIO*/
+.button-pading {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
 .btn-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -228,6 +239,9 @@ body {
 }
 
 /* LIST */
+.list-padding {
+  padding-bottom: 120px;
+}
 .section-title {
   font-weight: 500;
   font-size: 20px;
