@@ -8,6 +8,36 @@
   --button-color: #e7e9fc;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--brand-color-btn-1);
@@ -20,6 +50,18 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 /* HEADER */
