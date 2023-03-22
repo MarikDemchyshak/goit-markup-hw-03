@@ -60,6 +60,9 @@ body {
 }
 
 /* HEADER */
+.flex-one {
+  display: flex;
+}
 .header-padding {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -155,6 +158,9 @@ body {
 }
 
 /* SECTION TWO */
+.flex-two {
+  display: flex;
+}
 .section-two-margin {
   margin-bottom: 120px;
 }
@@ -174,6 +180,9 @@ body {
 }
 
 /* SECTION THREE */
+.flex-three {
+  display: flex;
+}
 .section-two-three {
   margin-bottom: 120px;
 }
@@ -187,6 +196,10 @@ body {
 }
 
 /* SECTION FOUR */
+.flex-four {
+  display: flex;
+}
+
 .section-four-background {
   background-color: var(--button-footer-text);
 }
