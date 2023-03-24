@@ -75,7 +75,7 @@ body {
 }
 
 /* HEADER */
-.header-padding {
+.header-border {
   border-bottom: 1px solid var(--list-card-set);
 }
 
@@ -132,6 +132,7 @@ body {
   color: var(--header-contact-color);
 }
 
+/* MAILTO and TEL */
 .header-address {
   font-style: normal;
 }
@@ -226,13 +227,10 @@ body {
 }
 
 /* SECTION THREE */
-.flex-three {
-  display: flex;
-  gap: 24px;
-}
 .section-two-three {
   padding-bottom: 120px;
 }
+
 .section-three-title {
   font-size: 36px;
   line-height: 1.11;
@@ -241,6 +239,11 @@ body {
   text-transform: capitalize;
   color: var(--logo-studio);
   margin-bottom: 72px;
+}
+
+.flex-three {
+  display: flex;
+  gap: 24px;
 }
 
 /* SECTION FOUR */
@@ -282,17 +285,12 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--logo-studio);
-  /* justify-content: center; */
-  /* margin-top: 32px; */
   margin-bottom: 8px;
 }
 
 .section-four-profession {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  /* display: flex;
-  justify-content: center;
-  padding-bottom: 32px; */
 }
 
 /* BUTTON PORTFOLIO*/
