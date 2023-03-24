@@ -6,6 +6,7 @@
   --brand-color-btn-1: #ffffff;
   --button-footer-text: #f4f4fd;
   --button-color: #e7e9fc;
+  --list-card-set: #e7e9fc;
 }
 
 h1,
@@ -57,12 +58,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 /* HEADER */
 .header-padding {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--list-card-set);
 }
 
 .header-container {
@@ -174,7 +174,6 @@ body {
   flex-direction: row;
   align-items: flex-start;
   padding: 16px 32px;
-  gap: 10px;
   min-width: 169px;
   height: 56px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -283,12 +282,12 @@ body {
 }
 
 /* BUTTON PORTFOLIO*/
-.button-pading {
-  margin-top: 96px;
-  margin-bottom: 72px;
+.button-portfolio {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 96px;
+  margin-bottom: 72px;
   column-gap: 24px;
 }
 .btn-portfolio {
@@ -300,12 +299,19 @@ body {
   color: var(--logo-web);
   background-color: var(--button-footer-text);
   cursor: pointer;
+  border: 1px solid var(--list-card-set);
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .btn-portfolio:focus,
 .btn-portfolio:hover {
   color: var(--brand-color-btn-1);
   background-color: var(--header-contact-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: 1px solid var(--header-contact-color);
 }
 
 /* LIST */
@@ -314,9 +320,15 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-.list-padding {
   padding-bottom: 120px;
+}
+
+.item {
+  display: flex;
+  width: calc((100% - 48px) / 3);
+  border-right: 1px solid var(--list-card-set);
+  border-bottom: 1px solid var(--list-card-set);
+  border-left: 1px solid var(--list-card-set);
 }
 .section-title {
   font-weight: 500;
@@ -324,6 +336,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--logo-studio);
+  padding-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .section-text {
@@ -331,6 +346,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-body);
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 
 /* FOOTER */
