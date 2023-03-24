@@ -45,6 +45,20 @@ body {
   color: var(--color-body);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .list {
   list-style: none;
 }
@@ -67,13 +81,13 @@ body {
 
 .header-container {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .header-navigation {
   display: flex;
   margin-right: auto;
-  align-items: baseline;
+  align-items: center;
 }
 
 .header-logo-web {
@@ -145,8 +159,11 @@ body {
 /* SECTION HERO BUTTON STUDIO */
 .hero {
   background-color: var(--logo-studio);
-  height: 600px;
-  margin-bottom: 120px;
+  padding: 188px 0;
+}
+
+.hero-buttom {
+  text-align: center;
 }
 
 .hero-title {
@@ -155,7 +172,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--brand-color-btn-1);
-  padding-top: 188px;
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -170,16 +186,11 @@ body {
   color: var(--brand-color-btn-1);
   background-color: var(--logo-web);
   cursor: pointer;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 16px 32px;
   min-width: 169px;
-  height: 56px;
+  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin: 0 auto;
-  margin-bottom: 188px;
 }
 
 .button-order-service:focus,
@@ -189,7 +200,7 @@ body {
 
 /* SECTION TWO */
 .section-two-margin {
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 
 .flex-two {
@@ -220,7 +231,7 @@ body {
   gap: 24px;
 }
 .section-two-three {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .section-three-title {
   font-size: 36px;
@@ -235,6 +246,7 @@ body {
 /* SECTION FOUR */
 .section-four-background {
   background-color: var(--button-footer-text);
+  padding: 120px 0;
 }
 
 .section-four-title {
@@ -244,14 +256,12 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--logo-studio);
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .flex-four {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .img-background {
@@ -261,24 +271,28 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.saction-four-name-profession {
+  padding: 32px 0;
+  text-align: center;
+}
+
 .section-four-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--logo-studio);
-  display: flex;
-  justify-content: center;
-  margin-top: 32px;
+  /* justify-content: center; */
+  /* margin-top: 32px; */
   margin-bottom: 8px;
 }
 
 .section-four-profession {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  padding-bottom: 32px;
+  padding-bottom: 32px; */
 }
 
 /* BUTTON PORTFOLIO*/
@@ -353,11 +367,7 @@ body {
 /* FOOTER */
 .footer-background {
   background-color: var(--logo-studio);
-}
-
-.footer-logo {
-  padding-top: 100px;
-  margin-bottom: 16px;
+  padding: 100px 0;
 }
 
 .footer-logo-web {
@@ -383,5 +393,6 @@ body {
 .footer-text {
   color: var(--button-footer-text);
   max-width: 264px;
-  padding-bottom: 100px;
+  line-height: 1.5em;
+  margin-top: 16px;
 }
