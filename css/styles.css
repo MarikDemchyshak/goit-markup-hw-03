@@ -296,11 +296,10 @@ body {
 /* BUTTON PORTFOLIO*/
 .button-portfolio {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   padding-top: 96px;
   margin-bottom: 72px;
-  column-gap: 24px;
+  gap: 24px;
 }
 .btn-portfolio {
   font-family: "Roboto", sans-serif;
@@ -326,7 +325,7 @@ body {
   border: 1px solid var(--header-contact-color);
 }
 
-/* LIST */
+/* LIST PORTFOLIO */
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -342,6 +341,7 @@ body {
   border-bottom: 1px solid var(--list-card-set);
   border-left: 1px solid var(--list-card-set);
 }
+
 .section-title {
   font-weight: 500;
   font-size: 20px;
@@ -349,7 +349,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--logo-studio);
   padding-left: 16px;
-  margin-top: 32px;
+  padding-top: 32px;
   margin-bottom: 8px;
 }
 
